@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "argon2-cffi>=25.1.0",
     "bcrypt>=4.3.0",
+    "faker>=37.4.2",
     "jupyterlab>=4.4.5",
     "kagglehub>=0.3.12",
     "loguru>=0.7.3",

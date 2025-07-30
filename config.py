@@ -38,7 +38,7 @@ class Config(BaseSettings):
     )
 
 
-config = Config()
+CONFIG = Config()
 
 if __name__ == "__main__":
-    print(config)
+    print(CONFIG)
